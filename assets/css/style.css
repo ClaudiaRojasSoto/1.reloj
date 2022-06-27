@@ -46,7 +46,7 @@
     transform:translate(5px, 5px);
 }
 
-#time .circle svg circle:nth-child(2){
+ #time .circle svg circle:nth-child(2){  /*Propiedad personalizada definida dentro de una pseudoclase para modificar las var de:(--color) */
     stroke: var(--color);
     stroke-dasharray: 440;
 }
@@ -82,7 +82,7 @@
     z-index: 10;
 }
 
-.dots::before {
+.dots::before {  /*Propiedad personalizada definida dentro de una pseudoclase para modificar las var de:(--color) as a :root */
     content:'';
     position: absolute;
     top: -3px;
