@@ -1,4 +1,5 @@
 setInterval(()=> {
+    
     let hours = document.getElementById('hours');
     let minutes = document.getElementById('minutes');
     let secondes = document.getElementById('seconds');
@@ -24,9 +25,9 @@ setInterval(()=> {
     m = m <10 ? '0' + m : m;
     s = s <10 ? '0' + s : s;
 
-    hours.innerHTML = h + '<br /><span>Hours</span>';
-    minutes.innerHTML =  m + '<br /><span>Minutes</span>';
-    secondes.innerHTML = s + '<br /><span>Seconds</span>';
+    hours.innerHTML = h + '<br /><span>Horas</span>';
+    minutes.innerHTML =  m + '<br /><span>Minutos</span>';
+    secondes.innerHTML = s + '<br /><span>Segundos</span>';
     ampm.innerHTML = ap;
 
     hh.style.strokeDashoffset= 440 - (440*h)/12;
